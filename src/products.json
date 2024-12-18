@@ -1,0 +1,4 @@
+[
+    { "id": 1, "name": "Apples", "price": 100, "imageUrl": "path/to/image.jpg", "category": "Fruits", "description": "Fresh apples." },
+    { "id": 2, "name": "Bananas", "price": 50, "imageUrl": "path/to/image.jpg", "category": "Fruits", "description": "Ripe bananas." }
+]

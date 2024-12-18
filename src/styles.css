@@ -1,0 +1,520 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 5px;
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #ddd;
+}
+
+/* Product List Styles */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+img.card-img-top {
+    height: 250px;
+}
+/* Cart Styles */
+.cart {
+    padding: 20px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Checkout Styles */
+.checkout {
+    padding: 20px;
+}
+
+/* Order History Styles */
+.order-history {
+    padding: 20px;
+}
+
+/* Add any additional styles here */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold;
+    display: flex;
+    align-items: baseline; /* Align text vertically */
+}
+
+.logo-text {
+    color: #FF6347; /* Tomato color for "Joyboy" */
+    margin-right: 5px; /* Space between "Joyboy" and "Grocery" */
+}
+
+.logo-grocery {
+    color: #4CAF50; /* Green color for "Grocery" */
+}
+
+.add-product-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.add-product-form h3 {
+    margin-bottom: 15px;
+}
+
+.add-product-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-product-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-product-form button:hover {
+    background-color: #45a049;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.admin-panel-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.admin-panel-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.admin-nav {
+    text-align: center;
+}
+
+.admin-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.admin-nav li {
+    margin: 10px 0;
+}
+
+.admin-nav a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin-nav a:hover {
+    text-decoration: underline;
+}
+
+.product-detail-container {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-info {
+    flex: 2;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #2874f0; /* Flipkart blue */
+}
+
+.mrp {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+}
+
+.discount {
+    color: #ff5722; /* Discount color */
+    font-weight: bold;
+}
+
+/* Common Button Styles */
+.btn {
+    padding: 10px 20px; /* Adjust padding for size */
+    font-size: 16px; /* Set a consistent font size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.btn-primary {
+    background-color: #4CAF50; /* Primary color */
+    color: white; /* Text color */
+}
+
+.btn-primary:hover {
+    background-color: #45a049; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.btn-secondary {
+    background-color: #f0f0f0; /* Secondary color */
+    color: #333; /* Text color */
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.btn-danger {
+    background-color: #ff4d4d; /* Danger color */
+    color: white; /* Text color */
+}
+
+.btn-danger:hover {
+    background-color: #e63939; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.why-shop {
+    margin-top: 20px;
+}
+
+.why-shop h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.why-shop ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-shop li {
+    margin: 5px 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content:end !important;
+    background-color: #f8f9fa; /* Light background for the nav links */
+    padding: 10px 0;
+}
+
+.nav-item {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.nav-link {
+    color: green; /* Change color as needed */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border */
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Change color of the toggler icon */
+}
+
+.fade-in {
+    animation: fadeIn 0.5s forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%); /* Start from the right */
+        opacity: 0; /* Start invisible */
+    }
+    to {
+        transform: translateX(0); /* End at original position */
+        opacity: 1; /* End visible */
+    }
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.instagram-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+}
+
+.instagram-icons i {
+    font-size: 24px; /* Adjust size as needed */
+    color: white; /* Icon color */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between payment icons */
+}
+
+.payment-icons i {
+    font-size: 30px; /* Adjust size as needed */
+    color: white; /* Icon color */
+}

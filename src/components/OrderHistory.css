@@ -1,0 +1,35 @@
+.order-history-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.order-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.order-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+}
+
+.order-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
