@@ -55,7 +55,7 @@ function Header() {
                 <Link className="nav-link" to="/checkout">Checkout</Link>
                 <Link className="nav-link" to="/order-history">Order History</Link>
                 <Link className="nav-link" to="/admin">Admin Panel</Link>
-                <Link className="nav-link" to="/wishlist">Wishlist</Link> {/* Link to Wishlist */}
+                {/* <Link className="nav-link" to="/wishlist">Wishlist</Link>  */}
             </div>
         </nav>
     );
